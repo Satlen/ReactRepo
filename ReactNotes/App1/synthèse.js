@@ -1,0 +1,4 @@
+/**
+ * De cette tâche, j' ai compris que je dois faire lorsque l' état  est global, il s' applique à tous les composants. C' est le cas de mon EditedTask lorsque j' avais donné comme global son état, si je mettais sur true isEdited qui est lu par un composant Editedtask, cela s' appliquait à tous les EditedTask. Mais lorsque je le met local à EditedTask, l' état s' applique uniquement à un EditedTask que j' ai mis dans le TodoApp1List.
+ * En gros, lorsqu' un état est global, sa valeur sur un composant est la même pour tous les composants du même type peut importe le nombre de fois j' affiche ce composant. Mais un état défini localement est propre à ce composant peut importe si je l' affiche plusieurs fois. 
+ */
